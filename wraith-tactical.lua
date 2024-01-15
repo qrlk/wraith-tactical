@@ -12,8 +12,6 @@ local enable_sentry = true     -- false to disable error reports to sentry.io
 -- https://github.com/qrlk/moonloader-script-updater
 local enable_autoupdate = true -- false to disable auto-update + disable sending initial telemetry (server, moonloader version, script version, samp nickname, virtual volume serial number)
 
---^^ none of it works if wraith-tactical is loaded as a module.
-
 -- https://github.com/qrlk/qrlk.lua.moonloader
 if enable_sentry then
     local sentry_loaded, Sentry = pcall(loadstring,
