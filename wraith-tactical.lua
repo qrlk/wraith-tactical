@@ -422,7 +422,7 @@ local cfg = inicfg.load({
         alt = true,
         instant = false,
         key = 0x51,
-        cooldown = 15
+        cooldown = 6
     },
 }, 'wraith-tactical')
 
