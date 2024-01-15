@@ -5,7 +5,7 @@ script_author("qrlk")
 script_description("wraith tactical")
 -- made for https://www.blast.hk/threads/193650/
 script_url("https://github.com/qrlk/wraith-tactical")
-script_version("15.01.2024-dev")
+script_version("15.01.2024")
 
 -- https://github.com/qrlk/qrlk.lua.moonloader
 local enable_sentry = true     -- false to disable error reports to sentry.io
@@ -418,7 +418,7 @@ local cfg = inicfg.load({
         ignoreMissing = false
     },
     tactical = {
-        enable = false,
+        enable = true,
         alt = true,
         instant = false,
         key = 0x51,
@@ -1050,7 +1050,7 @@ function openMenu(pos)
             {
                 title = getMessage("sectionLinks")
             },
-            createLinkRow(getMessage("moreAboutScript"), "https://www.blast.hk/threads/198111/"),
+            createLinkRow(getMessage("moreAboutScript"), "https://www.blast.hk/threads/200708/"),
         }
     end
 

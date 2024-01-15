@@ -1,5 +1,5 @@
 {
-  "latest": "15.01.2024-dev",
+  "latest": "15.01.2024",
   "updateurl": "https://raw.githubusercontent.com/qrlk/wraith-tactical/main/wraith.lua",
   "changelog": "https://github.com/qrlk/wraith-tactical/releases",
   "telemetry": "http://qrlk.me/dev/moonloader/wraith-tactical/stats.php"
