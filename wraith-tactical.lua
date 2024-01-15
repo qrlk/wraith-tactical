@@ -450,9 +450,6 @@ local wraith_tactical_hour = 14
 
 local requestToUnload = false
 
--- the aspect ratio snippet is being worked on here:  https://www.blast.hk/threads/198256/ https://github.com/qrlk/wraith-xiaomi
-
--- trying to ulitize aspectRatio property from aimSync
 
 local mainSoundStream = false
 local reserveSoundStream = false
@@ -488,7 +485,7 @@ function main()
 
     if getMoonloaderVersion() < 26 then
         sampAddChatMessage(getMessage('pleaseUpdateMoonloader'), -1)
-        local str = "wraith-tactical: you should update moonloader, normal work is not guaranteed"
+        -- local str = "wraith-tactical: you should update moonloader, normal work is not guaranteed"
         -- printStyledString(str, 10000, 2)
         -- printStyledString(str, 10000, 5)
         -- thisScript():unload()
