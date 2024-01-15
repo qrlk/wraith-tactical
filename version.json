@@ -1,6 +1,6 @@
 {
-  "latest": "31.12.2023-rc4",
-  "updateurl": "https://raw.githubusercontent.com/qrlk/wraith.lua/main/wraith.lua",
-  "changelog": "https://github.com/qrlk/wraith.lua/releases",
-  "telemetry": "http://qrlk.me/dev/moonloader/wraith.lua/stats.php"
+  "latest": "15.01.2024-dev",
+  "updateurl": "https://raw.githubusercontent.com/qrlk/wraith-tactical/main/wraith.lua",
+  "changelog": "https://github.com/qrlk/wraith-tactical/releases",
+  "telemetry": "http://qrlk.me/dev/moonloader/wraith-tactical/stats.php"
 }
