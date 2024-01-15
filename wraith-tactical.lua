@@ -203,13 +203,13 @@ local i18n = {
         },
 
         openWraithPassive = {
-            en = "wraith.lua {00ff00}(undetectable cheat){ffffff} - click to open!",
-            ru = "wraith.lua {00ff00}(беспалевный чит){ffffff} - нажмите!"
+            en = "{696969}wraith.lua {00ff00}(undetectable cheat){ffffff}: installed!",
+            ru = "{696969}wraith.lua {00ff00}(беспалевный чит){ffffff}: установлен!"
         },
 
         openWraithPassiveThread = {
-            en = "{696969}Open wraith.lua {00ff00}(undetectable cheat){ffffff} thread (RU)",
-            ru = "{696969}Открыть тему с wraith.lua {00ff00}(беспалевный чит)"
+            en = "Open wraith.lua {00ff00}(undetectable cheat){ffffff} thread (RU)",
+            ru = "Открыть тему с wraith.lua {00ff00}(беспалевный чит)"
         },
 
         tacticalUnderZWarning = {
