@@ -1016,7 +1016,7 @@ local cfg = inicfg.load({
         c5 = 1.0,
         c6 = 1.0
     }
-}, 'wraith')
+}, 'wraith-tactical')
 
 function getMessage(key)
     if i18n.data[key] ~= nil and i18n.data[key][cfg.options.language] ~= nil then
@@ -1026,7 +1026,7 @@ function getMessage(key)
 end
 
 function saveCfg()
-    inicfg.save(cfg, 'wraith')
+    inicfg.save(cfg, 'wraith-tactical')
 end
 
 saveCfg()
@@ -1098,7 +1098,7 @@ function main()
         radio_were_disabled = true
     end
 
-    sampRegisterChatCommand('wraith', function()
+    sampRegisterChatCommand('wraith-tactical', function()
         table.insert(tempThreads, lua_thread.create(function()
             if cfg.audio.enable and cfg.options.welcomeMessage then
                 if not checkAudioResources() then
