@@ -1071,9 +1071,7 @@ function openMenu(pos)
                     sampProcessChatInput('/wraith')
                 end
             } or
-            createLinkRow(getMessage("openWraithPassiveThread"), "https://www.blast.hk/threads/198111/"),
-
-            -- passive settings
+            createLinkRow(getMessage("openWraithPassiveThread"), "https://www.blast.hk/threads/198111/")
         }
     end
 
